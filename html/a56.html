@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samsung Galaxy A56</title>
+
+<link rel="stylesheet" href="../css/style5.css">
+</head>
+
+<body>
+
+<h1 class="title">Samsung Galaxy A56</h1>
+
+<div class="container">
+
+    <div class="left">
+
+        <img id="mainImg" src="../assets/a56.jpg.jpg" class="main-img">
+
+        <div class="gallery">
+            <img src="../assets/7.1.webp" onclick="changeImg(this.src)">
+            <img src="../assets/7.2.webp" onclick="changeImg(this.src)">
+            <img src="../assets/7.3.webp" onclick="changeImg(this.src)">
+            <img src="../assets/7.4.webp" onclick="changeImg(this.src)">
+        </div>
+
+    </div>
+
+    <div class="right">
+
+        <p class="price">9.490.000 VNĐ</p>
+
+        <h2>Thông số kỹ thuật</h2>
+        <ul>
+            <li>Màn hình: 6.6 inch Super AMOLED</li>
+            <li>Độ phân giải: FHD+</li>
+            <li>Chip: Exynos (tầm trung)</li>
+            <li>RAM: 8GB</li>
+            <li>Bộ nhớ: 128GB / 256GB</li>
+            <li>Camera: 50MP + 8MP + 2MP</li>
+            <li>Pin: 5000mAh</li>
+        </ul>
+
+        <h2>Mô tả</h2>
+        <p>
+            Samsung Galaxy A56 thuộc phân khúc tầm trung,
+            pin trâu 5000mAh, màn hình AMOLED đẹp,
+            phù hợp học sinh – sinh viên.
+        </p>
+
+        <a href="../index.html" class="btn">⬅ Quay lại</a>
+
+    </div>
+
+</div>
+
+<script>
+function changeImg(src){
+    document.getElementById("mainImg").src = src;
+}
+</script>
+
+</body>
+</html>

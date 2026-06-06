@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samsung Galaxy S24</title>
+
+<link rel="stylesheet" href="../css/style5.css">
+</head>
+
+<body>
+
+<h1 class="title">Samsung Galaxy S24</h1>
+
+<div class="container">
+
+    <div class="left">
+
+        <img id="mainImg" src="../assets/s24plus.jpg.jpg" class="main-img">
+
+        <div class="gallery">
+            <img src="../assets/6.1.webp" onclick="changeImg(this.src)">
+            <img src="../assets/6.2.webp" onclick="changeImg(this.src)">
+            <img src="../assets/6.3.webp" onclick="changeImg(this.src)">
+            <img src="../assets/6.4.webp" onclick="changeImg(this.src)">
+        </div>
+
+    </div>
+
+    <div class="right">
+
+        <p class="price">17.990.000 VNĐ</p>
+
+        <h2>Thông số kỹ thuật</h2>
+        <ul>
+            <li>Màn hình: 6.2 inch Dynamic AMOLED 2X</li>
+            <li>Độ phân giải: FHD+</li>
+            <li>Chip: Snapdragon 8 Gen 3 / Exynos (tùy thị trường)</li>
+            <li>RAM: 8GB</li>
+            <li>Bộ nhớ: 128GB / 256GB</li>
+            <li>Camera: 50MP + 12MP + 10MP</li>
+            <li>Pin: 4000mAh</li>
+        </ul>
+
+        <h2>Mô tả</h2>
+        <p>
+            Samsung Galaxy S24 là phiên bản nhỏ gọn nhất trong dòng S24,
+            hiệu năng mạnh mẽ, thiết kế sang trọng và phù hợp người dùng thích máy nhỏ gọn.
+        </p>
+
+        <a href="../index.html" class="btn">⬅ Quay lại</a>
+
+    </div>
+
+</div>
+
+<script>
+function changeImg(src){
+    document.getElementById("mainImg").src = src;
+}
+</script>
+
+</body>
+</html>

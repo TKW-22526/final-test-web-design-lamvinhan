@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPhone 14 Pro Max</title>
+
+<link rel="stylesheet" href="../css/style5.css">
+</head>
+
+<body>
+
+<h1 class="title">iPhone 14 Pro Max</h1>
+
+<div class="container">
+
+    <div class="left">
+
+        <img id="mainImg" src="../assets/iphone14prm.webp" class="main-img">
+
+        <div class="gallery">
+            <img src="../assets/2.1.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/2.2.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/2.3.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/2.4.jpg" onclick="changeImg(this.src)">
+        </div>
+
+    </div>
+
+    <div class="right">
+
+        <p class="price">20.990.000 VNĐ</p>
+
+        <h2>Thông số kỹ thuật</h2>
+        <ul>
+            <li>Màn hình: 6.7 inch Super Retina XDR</li>
+            <li>Chip: Apple A16 Bionic</li>
+            <li>RAM: 6GB</li>
+            <li>Bộ nhớ: 128GB / 256GB / 512GB</li>
+            <li>Camera: 48MP + 12MP + 12MP</li>
+            <li>Pin: ~4323mAh</li>
+        </ul>
+
+        <h2>Mô tả</h2>
+        <p>
+            iPhone 14 Pro Max có Dynamic Island, camera 48MP,
+            hiệu năng mạnh mẽ và màn hình luôn bật (Always-on Display).
+        </p>
+
+        <a href="../index.html" class="btn">⬅ Quay lại</a>
+
+    </div>
+
+</div>
+
+<script>
+function changeImg(src){
+    document.getElementById("mainImg").src = src;
+}
+</script>
+
+</body>
+</html>

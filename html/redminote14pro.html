@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redmi Note 14 Pro</title>
+
+<link rel="stylesheet" href="../css/style5.css">
+</head>
+
+<body>
+
+<h1 class="title">Redmi Note 14 Pro</h1>
+
+<div class="container">
+
+    <div class="left">
+
+        <img id="mainImg" src="../assets/redminote14pro.jpg" class="main-img">
+
+        <div class="gallery">
+            <img src="../assets/8.1.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/8.2.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/8.3.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/8.4.jpg" onclick="changeImg(this.src)">
+        </div>
+
+    </div>
+
+    <div class="right">
+
+        <p class="price">8.990.000 VNĐ</p>
+
+        <h2>Thông số kỹ thuật</h2>
+        <ul>
+            <li>Màn hình: 6.67 inch AMOLED 120Hz</li>
+            <li>Độ phân giải: 1.5K</li>
+            <li>Chip: Snapdragon 7s Gen 2</li>
+            <li>RAM: 8GB / 12GB</li>
+            <li>Bộ nhớ: 128GB / 256GB</li>
+            <li>Camera: 200MP + 8MP + 2MP</li>
+            <li>Pin: 5100mAh</li>
+        </ul>
+
+        <h2>Mô tả</h2>
+        <p>
+            Redmi Note 14 Pro nổi bật với camera 200MP,
+            hiệu năng ổn định, màn hình AMOLED 120Hz
+            và pin dung lượng lớn.
+        </p>
+
+        <a href="../index.html" class="btn">⬅ Quay lại</a>
+
+    </div>
+
+</div>
+
+<script>
+function changeImg(src){
+    document.getElementById("mainImg").src = src;
+}
+</script>
+
+</body>
+</html>

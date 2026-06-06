@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xiaomi 14</title>
+
+<link rel="stylesheet" href="../css/style5.css">
+</head>
+
+<body>
+
+<h1 class="title">Xiaomi 14</h1>
+
+<div class="container">
+
+    <div class="left">
+
+        <img id="mainImg" src="../assets/xiaomi14.jpg" class="main-img">
+
+        <div class="gallery">
+            <img src="../assets/8.1.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/8.2.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/8.3.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/8.4.jpg" onclick="changeImg(this.src)">
+        </div>
+
+    </div>
+
+    <div class="right">
+
+        <p class="price">15.990.000 VNĐ</p>
+
+        <h2>Thông số kỹ thuật</h2>
+        <ul>
+            <li>Màn hình: 6.36 inch AMOLED LTPO</li>
+            <li>Độ phân giải: 1.5K</li>
+            <li>Chip: Snapdragon 8 Gen 3</li>
+            <li>RAM: 8GB / 12GB</li>
+            <li>Bộ nhớ: 256GB / 512GB</li>
+            <li>Camera: Leica 50MP + 50MP + 50MP</li>
+            <li>Pin: 4610mAh</li>
+        </ul>
+
+        <h2>Mô tả</h2>
+        <p>
+            Xiaomi 14 là flagship nhỏ gọn hiệu năng cao,
+            hợp tác Leica cho chất lượng camera tốt,
+            thiết kế sang trọng và hiệu năng mạnh mẽ.
+        </p>
+
+        <a href="../index.html" class="btn">⬅ Quay lại</a>
+
+    </div>
+
+</div>
+
+<script>
+function changeImg(src){
+    document.getElementById("mainImg").src = src;
+}
+</script>
+
+</body>
+</html>

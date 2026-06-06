@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samsung Galaxy S24 Plus</title>
+
+<link rel="stylesheet" href="../css/style5.css">
+</head>
+
+<body>
+
+<h1 class="title">Samsung Galaxy S24 Plus</h1>
+
+<div class="container">
+
+    <div class="left">
+
+        <img id="mainImg" src="../assets/s24plus.jpg.jpg" class="main-img">
+
+        <div class="gallery">
+            <img src="../assets/5.1.webp" onclick="changeImg(this.src)">
+            <img src="../assets/5.2.webp" onclick="changeImg(this.src)">
+            <img src="../assets/5.3.webp" onclick="changeImg(this.src)">
+            <img src="../assets/5.4.webp" onclick="changeImg(this.src)">
+        </div>
+
+    </div>
+
+    <div class="right">
+
+        <p class="price">19.990.000 VNĐ</p>
+
+        <h2>Thông số kỹ thuật</h2>
+        <ul>
+            <li>Màn hình: 6.7 inch Dynamic AMOLED 2X</li>
+            <li>Độ phân giải: QHD+</li>
+            <li>Chip: Snapdragon 8 Gen 3</li>
+            <li>RAM: 12GB</li>
+            <li>Bộ nhớ: 256GB / 512GB</li>
+            <li>Camera: 50MP + 12MP + 10MP</li>
+            <li>Pin: 4900mAh</li>
+        </ul>
+
+        <h2>Mô tả</h2>
+        <p>
+            Samsung Galaxy S24 Plus mang thiết kế cao cấp,
+            hiệu năng mạnh mẽ với Snapdragon 8 Gen 3,
+            màn hình lớn QHD+ sắc nét và pin dung lượng cao.
+        </p>
+
+        <a href="../index.html" class="btn">⬅ Quay lại</a>
+
+    </div>
+
+</div>
+
+<script>
+function changeImg(src){
+    document.getElementById("mainImg").src = src;
+}
+</script>
+
+</body>
+</html>

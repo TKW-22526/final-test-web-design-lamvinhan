@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samsung Galaxy S24 Ultra</title>
+
+<link rel="stylesheet" href="../css/style5.css">
+</head>
+
+<body>
+
+<h1 class="title">Samsung Galaxy S24 Ultra</h1>
+
+<div class="container">
+
+    <div class="left">
+
+        <img id="mainImg" src="../assets/s24ultra.jpg.jpg" class="main-img">
+
+        <div class="gallery">
+            <img src="../assets/4.1.webp" onclick="changeImg(this.src)">
+            <img src="../assets/4.2.webp" onclick="changeImg(this.src)">
+            <img src="../assets/4.3.webp" onclick="changeImg(this.src)">
+            <img src="../assets/4.4.webp" onclick="changeImg(this.src)">
+        </div>
+
+    </div>
+
+    <div class="right">
+
+        <p class="price">25.990.000 VNĐ</p>
+
+        <h2>Thông số kỹ thuật</h2>
+        <ul>
+            <li>Màn hình: 6.8 inch Dynamic AMOLED 2X</li>
+            <li>Độ phân giải: QHD+</li>
+            <li>Chip: Snapdragon 8 Gen 3</li>
+            <li>RAM: 12GB</li>
+            <li>Bộ nhớ: 256GB / 512GB / 1TB</li>
+            <li>Camera: 200MP + 12MP + 50MP + 10MP</li>
+            <li>Pin: 5000mAh</li>
+        </ul>
+
+        <h2>Mô tả</h2>
+        <p>
+            Samsung Galaxy S24 Ultra là flagship cao cấp nhất của Samsung,
+            nổi bật với camera 200MP, bút S-Pen tiện lợi và hiệu năng cực mạnh.
+        </p>
+
+        <a href="../index.html" class="btn">⬅ Quay lại</a>
+
+    </div>
+
+</div>
+
+<script>
+function changeImg(src){
+    document.getElementById("mainImg").src = src;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPhone 15</title>
+
+<link rel="stylesheet" href="../css/style5.css">
+</head>
+
+<body>
+
+<h1 class="title">iPhone 15</h1>
+
+<div class="container">
+
+    <div class="left">
+        <img id="mainImg" src="../assets/iphone15.webp" class="main-img">
+
+        <div class="gallery">
+            <img src="../assets/1.webp" onclick="changeImg(this.src)">
+            <img src="../assets/1.1.webp" onclick="changeImg(this.src)">
+            <img src="../assets/1.2.webp" onclick="changeImg(this.src)">
+            <img src="../assets/1.3.webp" onclick="changeImg(this.src)">
+        </div>
+    </div>
+
+    <div class="right">
+
+        <p class="price">21.990.000 VNĐ</p>
+
+        <h2>Thông số kỹ thuật</h2>
+        <ul>
+            <li>Màn hình: 6.1 inch OLED</li>
+            <li>Chip: Apple A16 Bionic</li>
+            <li>RAM: 6GB</li>
+            <li>Bộ nhớ: 128GB</li>
+            <li>Camera: 48MP + 12MP</li>
+            <li>Pin: ~3349mAh</li>
+        </ul>
+
+        <h2>Mô tả</h2>
+        <p>
+            iPhone 15 có thiết kế Dynamic Island, camera 48MP,
+            hiệu năng ổn định và pin cải thiện so với thế hệ trước.
+        </p>
+
+        <a href="../index.html" class="btn">⬅ Quay lại</a>
+
+    </div>
+
+</div>
+
+<script>
+function changeImg(src){
+    document.getElementById("mainImg").src = src;
+}
+</script>
+
+</body>
+</html>

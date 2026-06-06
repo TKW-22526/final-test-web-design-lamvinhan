@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OPPO Reno 13</title>
+
+<link rel="stylesheet" href="../css/style5.css">
+</head>
+
+<body>
+
+<h1 class="title">OPPO Reno 13</h1>
+
+<div class="container">
+
+    <div class="left">
+
+        <img id="mainImg" src="../assets/oppo.webp" class="main-img">
+
+        <div class="gallery">
+            <img src="../assets/9.1.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/9.2.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/9.3.jpg" onclick="changeImg(this.src)">
+            <img src="../assets/9.4.jpg" onclick="changeImg(this.src)">
+        </div>
+
+    </div>
+
+    <div class="right">
+
+        <p class="price">10.990.000 VNĐ</p>
+
+        <h2>Thông số kỹ thuật</h2>
+        <ul>
+            <li>Màn hình: 6.7 inch AMOLED</li>
+            <li>Độ phân giải: FHD+</li>
+            <li>Chip: Snapdragon 7 Gen 3</li>
+            <li>RAM: 8GB / 12GB</li>
+            <li>Bộ nhớ: 128GB / 256GB</li>
+            <li>Camera: 50MP + 8MP + 2MP</li>
+            <li>Pin: 5000mAh</li>
+        </ul>
+
+        <h2>Mô tả</h2>
+        <p>
+            OPPO Reno 13 có thiết kế mỏng nhẹ, camera chụp đẹp,
+            sạc nhanh VOOC và hiệu năng ổn định cho nhu cầu hằng ngày.
+        </p>
+
+        <a href="../index.html" class="btn">⬅ Quay lại</a>
+
+    </div>
+
+</div>
+
+<script>
+function changeImg(src){
+    document.getElementById("mainImg").src = src;
+}
+</script>
+
+</body>
+</html>
